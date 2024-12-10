@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Noto Sans";
   transition: all 0.4s;
+  scroll-behavior: smooth;
 }
 .container {
   max-width: 1990px;
@@ -15,5 +16,20 @@ img {
   &:hover {
     cursor: pointer;
     transform: scale(1.03);
+  }
+}
+
+a {
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+button {
+  &:hover {
+    transform: scale(1.05);
+  }
+  &:active {
+    background-color: greenyellow !important;
   }
 }
